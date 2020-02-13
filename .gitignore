@@ -15,10 +15,10 @@
 # End of https://www.gitignore.io/api/visualstudiocode
 
 #my resume
-hoffmann-resume.pdf
+html/hoffmann-resume.pdf
 
 #my pictures and projects
-IMG_2315.jpeg
-kittycabin.png
-healthy.png
-circle.png
+html/IMG_2315.jpeg
+html/kittycabin.png
+html/healthy.png
+html/circle.png
