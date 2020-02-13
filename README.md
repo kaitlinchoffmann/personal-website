@@ -1,2 +1,2 @@
 Personal Website
-This simple web template uses HTML and CSS to showcase your personal accomplishments. Navbar includes buttons for About, GitHub, Projects and a fun one for Cuteness Overload. Edit the HTML to your liking. 
+This simple web template uses HTML and CSS to showcase your personal accomplishments. Navbar includes buttons for About, Resume, GitHub, Projects and a fun one called Cuteness Overload. I used it to showcase my cats but edit this and the rest of HTML to fit you. 
