@@ -28,6 +28,18 @@ li a {
   border-top: 1px solid lightgrey;
 }
 
+a:any-link {
+  color: rgb(112, 128, 144);
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(112, 128, 144);
+  list-style-type: none;
+  text-decoration: none;
+}
+
 a:hover {
   background-color: plum;
   color: white;
@@ -61,7 +73,7 @@ li:last-child {
 #about-text {
     width: 500px;
     float: left;
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 200px; 
     margin-right: 40px; 
     padding: 30px;
@@ -70,14 +82,14 @@ li:last-child {
 }
 
 #name {
-    font-size: 70px;
+    font-size: 90px;
     font-family: tangerine;
     text-align: center;
     text-shadow: 2px 2px 2px lightgrey;
 }
 
 footer {
-    padding: 20px;
+    padding: 40px;
     background-color: plum;
     color: white;
     text-align: center;
