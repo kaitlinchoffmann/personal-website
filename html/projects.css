@@ -3,6 +3,9 @@ iframe {
     height: 500px;
     margin-left: 100px;
     margin-top: 20px;
+    border: none;
+    box-shadow: 0px 0px 6px lightgrey;
+
 }
 
 .project {
@@ -10,10 +13,11 @@ iframe {
     height: 400px;
     margin-left: 100px;
     margin-top: 20px;
+    box-shadow: 0px 2px 7px lightgrey;
 }
 
 .last {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 div.web-info {
