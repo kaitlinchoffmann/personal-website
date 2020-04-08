@@ -1,0 +1,160 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(221, 160, 221, 0), rgba(221, 160, 221, 0.3));
+    color: rgb(112, 128, 144);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(112, 128, 144);
+}
+
+/*utilities*/
+
+.text-highlight {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*  navbar */
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-top: 0.1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+#navbar ul li a {
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    box-sizing: border-box;
+    padding: 1.25rem;
+    margin: 0;
+}
+
+#navbar ul li:first-child {
+    padding-right: 2rem;
+}
+
+#navbar ul li:last-child {
+    margin-left: auto;
+}
+
+#navbar ul li .second-last {
+    border-right: 1px solid lightgrey;
+}
+
+#navbar ul li a:visited {
+    color: rgb(112, 128, 144);
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+#navbar ul li a:hover {
+    background-color: plum;
+    color: white;
+  }
+  
+#navbar ul li .active {
+      background-color: rgba(221, 160, 221, 0.3);
+}
+
+  /* About Section */
+
+#about {
+      display: flex;
+      height: 75vh;
+      justify-content: center;
+      padding: 0.5rem 4rem;
+}
+
+#name {
+    font-size: 5.5rem;
+    font-family: tangerine;
+    text-align: center;
+    text-shadow: 2px 2px 2px lightgrey;
+}
+
+#about .about-text {
+    text-align: center;
+    padding-right: 7rem;
+    width: 30rem;
+}
+
+#about .about-text p {
+    line-height: 1.5rem;
+}
+
+#about .img-div .about-img {
+      width: 19rem;
+      box-shadow: 0px 0px 20px grey;
+      margin-top: 4rem;
+}
+
+footer {
+    text-align: center;
+    padding: 3rem;
+    background-color: plum;
+    color: white;
+
+}
+
+/* resume */
+iframe {
+    width: 50rem;
+    height: 64.5rem; 
+    border-style: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+#resume {
+    margin-bottom: 6.25rem;
+}  
+
+/* projects */
+
+.project {
+    display: flex;
+    padding: 0 4rem;
+    justify-content: center;
+}
+
+.project .img-section .project-img {
+    width: 32rem;
+    height: 32rem;
+    border: none;
+    box-shadow: 0px 0px 6px lightgrey;
+
+}
+
+.last {
+    margin-bottom: 6.25rem;
+}
+
+.project .web-info {
+    padding-left: 6.25rem;
+    width: 32rem;
+}
+
+h3, div {
+  display: inline;
+}
+
+hr {
+    border: 1px solid rgba(119, 136, 153, 0.1);
+    margin: 50px;
+}
+

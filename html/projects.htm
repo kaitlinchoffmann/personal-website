@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="projects.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/projects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <title>KH | Projects</title>
 </head>
 <body>
-  <nav>
+  <!--Navbar-->
+  <nav id="navbar">
     <ul class="dropdown">
-      <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+      <li><i class="fa fa-heart-o logo" aria-hidden="true"></i></li>
       <li><a href="../index.html">About</a></li>
-      <li><a href="resume.htm">Resume</a></li>
-      <li><a class="last-tab active" href="projects.htm">Projects</a></li>
-      <li><a class="last-tab" href="https://github.com/kaitlinchoffmann" target="_blank">GitHub <i class="fa fa-github fa-lg fa-last" aria-hidden="true"></i></a></li>
+      <li><a href="./resume.htm">Resume</a></li>
+      <li><a class="active second-last" href="./projects.htm">Projects</a></li>
+      <li><a class="last" href="https://github.com/kaitlinchoffmann" target="_blank">GitHub <i class="fa fa-github fa-lg fa-last" aria-hidden="true"></i></a></li>
     </ul>
-  </nav>
+   </nav>  
+   <!--Projects-->
+   <!--Project 1-->
   <h1 id="name">Projects</h1>
-  <div>  
-    <img class="project" src="kittycabin.png">
+  <section class="project">
+  <div class="img-section">  
+    <img class="project-img" src="kittycabin.png">
+  </div>  
     <div class="web-info">
       <h2>The Kitty Cabin</h2>
         <p><h3>URL:</h3>
@@ -36,15 +41,17 @@
           <div>Common Gateway Interface (CGI)</div></p>
         <p><h3>Database:</h3>
           <div>MySQL</div></p>
-        <p><h3>Languages:</h3></p>
-          Backend - Python, Java<p>
+        <p><h3>Languages:</h3>
+          Backend - Python, Java
           Frontend - HTML, CSS, JavaScript</p>
     </div>
-  </div><hr/>
-
-
-  <div>  
-    <img class="project" src="healthy.png">
+  </section>
+  <hr/>
+   <!--Project 2-->
+  <section class="project">
+  <div class="img-section">  
+    <img class="project-img" src="healthy.png">
+  </div>  
     <div class="web-info">
       <h2>Healthy Habits (est. April 2020)</h2>
         <p><h3>URL:</h3>
@@ -63,11 +70,14 @@
           Backend - JavaScript<p>
           Frontend - HTML, CSS, JavaScript</p>
     </div>
-  </div><hr/>  
-
-  <div>  
-    <iframe src="comingsoon.htm"></iframe>
-    <div class="web-info">
+    </section>
+  <hr/> 
+  <!--Project 3-->
+  <section class="project">
+  <div class="img-section">  
+    <iframe class="project-img" src="comingsoon.htm"></iframe>
+  </div>  
+  <div class="web-info">
       <h2>Where is My Cafe</h2>
         <p><h3>URL:</h3>
           <div><a href="#inprogress" target="_blank">in progress</a></div></p>
@@ -84,10 +94,13 @@
           Backend - JavaScript<p>
           Frontend - HTML, CSS, JavaScript</p>
     </div>
-  </div><hr/>  
-
-  <div>  
-    <img class="project last" src="circle.png">
+  </section>
+  <hr/>  
+   <!--Project 4-->
+  <section class="project last">
+  <div class="img-section">  
+    <img class="project-img" src="circle.png">
+  </div>  
     <div class="web-info">
       <h2>Data Analytics Visualization</h2>
         <p><h3>URL:</h3>
@@ -102,7 +115,8 @@
         <p><h3>Language:</h3>
           <div>R</div></p>
     </div>
-  </div><br/>
+  </section>
+  <br/>
 
   <footer id="bottom-space">A Website by Kaitlin Hoffmann</footer>  
 </body>
